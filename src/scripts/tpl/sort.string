@@ -1,0 +1,150 @@
+<header class="sort-header">
+    <ul>
+        <li></li>
+        <li>
+            <span class="activeSpanBorder" action-type="sortSpanSlide">分类</span>
+            <span action-type="sortSpanSlide">场景</span>
+            <span action-type="sortSpanSlide">品牌</span>
+        </li>
+        <li class="yo-ico">&#xe602;</li>
+    </ul>
+</header>
+<section class="sort-section">
+    <div class="swiper-container sort-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <ul>
+                    <li class="activeSideLi" action-type="tapLi">推荐</li>
+                    <li action-type="tapLi">女人</li>
+                    <li action-type="tapLi">美妆</li>
+                    <li action-type="tapLi">数码</li>
+                    <li action-type="tapLi">居家</li>
+                    <li action-type="tapLi">零食</li>
+                    <li action-type="tapLi">男人</li>
+                    <li action-type="tapLi">创意</li>
+                </ul>
+                <section spa-widget="scroll">
+                    <dl>
+                        <dt><img ms-src="dl0[0]" /></dt>
+                        <dd ms-repeat-el="dl0_imgArr">
+                            <ul>
+                                <li ms-repeat-item="el"><img ms-src="item.img" /><span ms-text="item.text"></span></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </section>
+            </div>
+            <div class="swiper-slide">
+                <div class="cj-title">
+                    <div></div>
+                    <div>
+                        <span>--------------------------</span><i>热门对象</i><span>--------------------------</span>
+                    </div>
+                    <div></div>
+                </div>
+                <span>Hot Object</span>
+                <div class="cj-content1">
+                    <ul>
+                        <i></i>
+                        <li><img src="/maishoujie/images/sort/chapter1.png" /><span>女朋友</span></li>
+                        <div></div>
+                        <li><img src="/maishoujie/images/sort/chapter2.png" /><span>男朋友</span></li>
+                        <div></div>
+                        <li><img src="/maishoujie/images/sort/chapter3.png" /><span>好基友</span></li>
+                        <i></i>
+                    </ul>
+                    <ul>
+                        <i></i>
+                        <li><img src="/maishoujie/images/sort/chapter4.png" /><span>爸爸</span></li>
+                        <div></div>
+                        <li><img src="/maishoujie/images/sort/chapter5.png" /><span>妈妈</span></li>
+                        <div></div>
+                        <li><img src="/maishoujie/images/sort/chapter6.png" /><span>小朋友</span></li>
+                        <i></i>
+                    </ul>
+                </div>
+                <div class="cj-title">
+                    <div></div>
+                    <div>
+                        <span>--------------------------</span><i>精选标签</i><span>--------------------------</span>
+                    </div>
+                    <div></div>
+                </div>
+                <span>Selection label</span>
+                <div class="cj-content2">
+                    <div></div>
+                    <i><img src="/maishoujie/images/sort/chapter7.png" /></i>
+                    <div></div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <ul>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands1.png" /><span>雷神</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands2.png" /><span>周黑鸭</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands3.png" /><span>科沃斯</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands4.png" /><span>海信</span></li>
+                    <i></i>
+                </ul>
+                <ul>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands5.png" /><span>新百伦</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands6.png" /><span>麦本本</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands7.png" /><span>良品铺子</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands8.png" /><span>柒牌</span></li>
+                    <i></i>
+                </ul>
+                <ul>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands9.png" /><span>罗蒙</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands10.png" /><span>金士顿</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands11.png" /><span>费列罗</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands12.png" /><span>马克华菲</span></li>
+                    <i></i>
+                </ul>
+                <ul>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands13.png" /><span>美的</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands14.png" /><span>九阳</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands15.png" /><span>百草味</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands16.png" /><span>华硕</span></li>
+                    <i></i>
+                </ul>
+                <ul>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands17.png" /><span>中粮食品</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands18.png" /><span>梦妆</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands19.png" /><span>来伊份</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands20.png" /><span>雀巢</span></li>
+                    <i></i>
+                </ul>
+                <ul>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands21.png" /><span>罗马仕</span></li>
+                    <i></i>
+                    <li><img src="/maishoujie/images/sort/brands22.png" /><span>兰芝</span></li>
+                    <i></i>
+                    <li><img src="" /><span></span></li>
+                    <i></i>
+                    <li><img src="" /><span></span></li>
+                    <i></i>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

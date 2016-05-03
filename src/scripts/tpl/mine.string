@@ -1,0 +1,62 @@
+<header class="mine-header">
+    <div>
+        <img src="/maishoujie/images/mine/noUser.png" /><i action-type="login">登录</i><span>/</span><b action-type="login">注册</b>
+    </div>
+    <div></div>
+    <div class="yo-ico">&#xe674;</div>
+</header>
+<section class="mine-section">
+    <ul>
+        <li><i><b class="yo-ico">&#xe60d;</b><span>好货订单</span></i></li>
+        <li>
+            <ul>
+                <li><i><b class="yo-ico">&#xe603;</b><span>待付款</span></i></li>
+                <li><i><b class="yo-ico">&#xe62c;</b><span>待发货</span></i></li>
+                <li><i><b class="yo-ico">&#xe616;</b><span>待收货</span></i></li>
+                <li><i><b class="yo-ico">&#xe676;</b><span>已完成</span></i></li>
+                <li><i><b class="yo-ico">&#xe643;</b><span>售后/退款</span></i></li>
+            </ul>
+        </li>
+        <li>
+            <i>淘宝订单</i><span></span><b class="yo-ico">&#xe677;</b>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b class="yo-ico">&#xe66d;</b>
+            <span>购物车</span>
+            <div></div>
+            <i class="yo-ico">&#xe677;</i>
+        </li>
+        <li>
+            <b class="yo-ico">&#xe621;</b>
+            <span>兑换记录</span>
+            <div></div>
+            <i class="yo-ico">&#xe677;</i>
+        </li>
+        <li>
+            <b class="yo-ico">&#xe610;</b>
+            <span>收货地址</span>
+            <div></div>
+            <i class="yo-ico">&#xe677;</i>
+        </li>
+        <li>
+            <b class="yo-ico">&#xe60e;</b>
+            <span>客服中心</span>
+            <div></div>
+            <i class="yo-ico">&#xe677;</i>
+        </li>
+        <li>
+            <b class="yo-ico">&#xe62c;</b>
+            <span>我的收藏</span>
+            <div></div>
+            <i class="yo-ico">&#xe677;</i>
+        </li>
+        <li>
+            <b class="yo-ico">&#x3482;</b>
+            <span>设置</span>
+            <div></div>
+            <i class="yo-ico">&#xe677;</i>
+        </li>
+    </ul>
+</section>

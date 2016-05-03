@@ -1,0 +1,138 @@
+@charset "utf-8";
+.goods-header {
+    height: 0.44rem;
+    background-color: #ffffff;
+    @include flexbox(flex);
+    > div {
+        width: 0.61rem;
+        line-height: 0.44rem;
+        text-align: center;
+        color: #573716;
+        font-size: 0.2rem;
+    }
+    > ul {
+        @include flex(1);
+        @include flexbox(flex);
+        @include align-items(center);
+        @include justify-content(center);
+        li {
+            text-align: center;
+            height: 0.19rem;
+            line-height: 0.19rem;
+            &:first-child {
+                width: 0.38rem;
+                font-size: 0.19rem;
+                color: #3e2810;
+            }
+            &:nth-of-type(2),
+            &:nth-of-type(3) {
+                width: 0.23rem;
+                font-size: 0.08rem;
+                color: #583f1f;
+            }
+            &:nth-of-type(3) {
+                display: none;
+            }
+        }
+    }
+}
+.goods-section {
+    @include flex(1);
+    width: 100%;
+    overflow: hidden;
+    > div {
+        > div:nth-of-type(1) {
+            background-color: #ffffff;
+            width: 100%;
+            > div {
+                width: 100%;
+                overflow: hidden;
+                > div {
+                    width: 100%;
+                    > div {
+                        width: 100%;
+                        > img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            > ul {
+                width: 100%;
+                @include box-sizing(border-box);
+                padding: 0.1rem 0.1rem 0.07rem;
+                @include flexbox(flex);
+                > li {
+                    &:not(:nth-child(2)) {
+                        @include flex(1);
+                    }
+                    &:nth-child(2) {
+                        width: 0.1rem;
+                    }
+                    > img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        > div:nth-of-type(2) {
+            width: 100%;
+            background-color: #efeff4;
+            padding-bottom: 0.49rem;
+            > .goodsUl {
+                width: 100%;
+                @include box-sizing(border-box);
+                padding-top: 0.07rem;
+                @include flexbox(flex);
+                > li {
+                    &:not(:nth-child(2)) {
+                        @include flex(1);
+                        background-color: #ffffff;
+                    }
+                    &:nth-child(2) {
+                        width: 0.08rem;
+                    }
+                    > img {
+                        width: 100%;
+                    }
+                    > span {
+                        display: block;
+                        height: 0.71rem;
+                        > i {
+                            display: block;
+                            height: 0.4rem;
+                            line-height: 0.4rem;
+                            font-size: 0.15rem;
+                            color: #141414;
+                            margin-left: 0.07rem;
+                            margin-right: 0.05rem;
+                            @include ellipsis(true);
+                            text-align: center;
+                        }
+                        > b {
+                            display: block;
+                            height: 0.31rem;
+                            @include box-sizing(border-box);
+                            padding: 0.06rem 0 0.12rem;
+                            font-size: 0.1rem;
+                            line-height: 0.15rem;
+                            color: #D32626;
+                            text-align: center;
+                            > i {
+                                font-size: 0.13rem;
+                                color: #D32626;
+                                margin-left: 0.06rem;
+                                margin-right: 0.1rem;
+                            }
+                            > b {
+                                font-size: 0.1rem;
+                                color: #AAAAAA;
+                                text-decoration: line-through;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

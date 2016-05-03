@@ -1,0 +1,161 @@
+@charset "utf-8";
+.mine-header {
+    @include flexbox(box);
+    width: 100%;
+    height: 1rem;
+    background-color: #F33B43;
+    > div {
+        height: 1rem;
+        line-height: 1rem;
+        &:nth-of-type(1) {
+            width: 1.6rem;
+            text-align: center;
+            > img {
+                width: 0.58rem;
+                height: 0.58rem;
+                margin-right: 0.05rem;
+            }
+            > i,
+            b,
+            span {
+                font-size: 0.14rem;
+                color: #FFFFFF;
+            }
+        }
+        &:nth-of-type(2) {
+            @include flex(1);
+        }
+        &:nth-of-type(3) {
+            width: 0.65rem;
+            color: #FFFFFF;
+            font-size: 0.21rem;
+            text-align: center;
+        }
+    }
+}
+.mine-section {
+    @include flex(1);
+    width: 100%;
+    > ul {
+        background-color: #FFFFFF;
+        width: 100%;
+        &:nth-of-type(1) {
+            margin-top: 0.08rem;
+            height: 1.39rem;
+            > li {
+                &:nth-of-type(1) {
+                    height: 0.39rem;
+                    @include flexbox(flex);
+                    @include align-items(center);
+                    margin-left: 0.1rem;
+                    > i {
+                        display: inline-block;
+                        height: 0.21rem;
+                        line-height: 0.21rem;
+                        border-radius: 0.1rem;
+                        overflow: hidden;
+                        @include box-sizing(border-box);
+                        padding: 0 0.1rem;
+                        background-color: #FF5350;
+                        > b {
+                            font-size: 0.14rem;
+                            color: #FFDADA;
+                        }
+                        > span {
+                            font-size: 0.09rem;
+                            color: #FFDADA;
+                        }
+                    }
+                }
+                &:nth-of-type(2) {
+                    @include box-sizing(border-box);
+                    height: 0.61rem;
+                    > ul {
+                        height: 0.61rem;
+                        width: 100%;
+                        @include border(1px 0 1px 0,#E7E7E7);
+                        @include flexbox(flex);
+                        > li {
+                            @include flex(1);
+                            @include flexbox(flex);
+                            @include align-items(center);
+                            @include justify-content(center);
+                            > i {
+                                @include flexbox(flex);
+                                @include flex-direction(column);
+                                > * {
+                                    text-align: center;
+                                    color: #222222;
+                                }
+                                > b {
+                                    font-size: 0.22rem;
+                                }
+                                > span {
+                                    font-size: 0.11rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(3) {
+                    height: 0.39rem;
+                    @include flexbox(flex);
+                    > i {
+                        width: 0.74rem;
+                        font-size: 0.13rem;
+                        line-height: 0.39rem;
+                        color: #000000;
+                        text-align: center;
+                    }
+                    > span {
+                        @include flex(1);
+                    }
+                    > b {
+                        width: 0.33rem;
+                        line-height: 0.39rem;
+                        text-align: center;
+                        font-size: 0.13rem;
+                        color: #B3B3B3;
+                    }
+                }
+            }
+        }
+        &:nth-of-type(2) {
+            margin-top: 0.07rem;
+            height: 1.98rem;
+            > li {
+                @include box-sizing(border-box);
+                @include flexbox(flex);
+                height: 0.33rem;
+                @include border(0 0 1px 0,#E7E7E7);
+                &:last-child {
+                    border: none;
+                }
+                > b {
+                    width: 0.32rem;
+                    height: 0.32rem;
+                    line-height: 0.32rem;
+                    text-align: center;
+                    font-size: 0.19rem;
+                    color: #4A4A4A;
+                }
+                > span {
+                    font-size: 0.14rem;
+                    height: 0.32rem;
+                    line-height: 0.32rem;
+                    color: #000000;
+                }
+                > div {
+                    @include flex(1);
+                }
+                > i {
+                    width: 0.33rem;
+                    line-height: 0.32rem;
+                    text-align: center;
+                    font-size: 0.13rem;
+                    color: #B3B3B3;
+                }
+            }
+        }
+    }
+}

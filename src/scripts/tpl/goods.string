@@ -1,0 +1,32 @@
+<header class="goods-header">
+    <div class="yo-ico">&#xe674;</div>
+    <ul>
+        <li>首页</li>
+        <li class="yo-ico" ms-visible="isShow" action-type="click">&#xe635;</li>
+        <li class="yo-ico" ms-visible="!isShow" action-type="click">&#xe601;</li>
+    </ul>
+    <div class="yo-ico">&#xe602;</div>
+</header>
+<section spa-widget="scroll" class="goods-section">
+    <div>
+        <div>
+            <div class="swiper-container" id="goodsLb">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide " ms-repeat="lunboArray"><img ms-src="el" /></div>
+                </div>
+            </div>
+            <ul ms-repeat="lunbo_ulArray">
+                <li><img ms-src="el.img1" /></li>
+                <li></li>
+                <li><img ms-src="el.img2" /></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="goodsUl" ms-repeat="goodsArray">
+                <li><img ms-src="el.img" /><span><i ms-text="el.intro"></i><b>￥<i ms-text="el.nowPrice"></i><b ms-text="el.previousPrice"></b></b></span></li>
+                <li></li>
+                <li><img ms-src="el.img2" /><span><i ms-text="el.intro2"></i><b>￥<i ms-text="el.nowPrice2"></i><b ms-text="el.previousPrice2"></b></b></span></li>
+            </ul>
+        </div>
+    </div>
+</section>

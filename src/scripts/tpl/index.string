@@ -1,0 +1,29 @@
+<div class="m-index">
+    <div class="m-index-body">
+
+    </div>
+    <footer>
+        <ul>
+            <li action-type="tap.switch" data-tag="goods" class="actionLi">
+                <i class="yo-ico">&#xe624;</i>
+                <b>商品</b>
+            </li>
+            <li action-type="tap.switch" data-tag="sort">
+                <i class="yo-ico">&#xe600;</i>
+                <b>分类</b>
+            </li>
+            <li action-type="tap.switch" data-tag="goodstuff">
+                <i class="yo-ico">&#xe60d;</i>
+                <b>好货</b>
+            </li>
+            <li action-type="tap.switch" data-tag="subject">
+                <i class="yo-ico">&#xe620;</i>
+                <b>专题</b>
+            </li>
+            <li action-type="tap.switch" data-tag="mine">
+                <i class="yo-ico">&#xe604;</i>
+                <b>我的</b>
+            </li>
+        </ul>
+    </footer>
+</div>
