@@ -4,7 +4,7 @@ SPA.defineView('login', {
     html: tplLogin,
     plugins: ['delegated'],
     bindActions: {
-      'hideLogin':function(){
+      'backToPrevPage':function(){
         this.hide();
       }
     },

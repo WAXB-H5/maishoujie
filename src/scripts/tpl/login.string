@@ -1,1 +1,25 @@
-<div action-type="hideLogin" class="loginPage">login</div>
+<div class="loginWrap">
+  <header class="login-header">
+    <span action-type="backToPrevPage">返回</span>
+  </header>
+  <section class="login-section">
+    <span>使用手机号登录</span>
+    <ul>
+      <li><span>国家/地区</span><i>中国</i></li>
+      <li>
+        <ul>
+          <li>+86</li>
+          <li><input type="text"/></li>
+          <li class="yo-ico">&#xe635;</li>
+        </ul>
+      </li>
+      <li><span>密码</span><input type="password" placeholder="请输入6位数字密码"/></li>
+    </ul>
+    <i><a>开始无忧购物</a></i>
+    <b>登录遇到问题?</b>
+  </section>
+  <footer class="login-footer">
+    <i>轻触上面的"开始无忧购物"按钮,即表示你同意</i>
+    <span>《热拍注册使用协议》</span>
+  </footer>
+</div>

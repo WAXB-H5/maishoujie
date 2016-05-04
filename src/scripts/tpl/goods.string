@@ -7,8 +7,12 @@
     </ul>
     <div class="yo-ico">&#xe602;</div>
 </header>
-<section spa-widget="scroll" class="goods-section">
+<section spa-widget="scroll" class="goods-section" data-scroll-id="refresh">
     <div>
+        <!-- <div class="head">
+            <img src="img/arrow.png" width="40" height="40"/>
+            <span>下拉刷新...</span>
+        </div> -->
         <div>
             <div class="swiper-container" id="goodsLb">
                 <div class="swiper-wrapper">
@@ -28,5 +32,6 @@
                 <li><img ms-src="el.img2" /><span><i ms-text="el.intro2"></i><b>￥<i ms-text="el.nowPrice2"></i><b ms-text="el.previousPrice2"></b></b></span></li>
             </ul>
         </div>
+
     </div>
 </section>

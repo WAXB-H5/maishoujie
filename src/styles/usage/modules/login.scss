@@ -1,5 +1,167 @@
-.loginPage{
-  width: 100%;
-  height: 100%;
-  background-color: #FFFFFF;
+@charset "utf-8";
+.loginWrap {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    @include flexbox(flex);
+    @include flex-direction(column);
+    > .login-header {
+        width: 100%;
+        height: 0.44rem;
+        padding-left: 0.17rem;
+        line-height: 0.44rem;
+        font-size: 0.16rem;
+        color: #D32626;
+    }
+    > .login-section {
+        @include flex(1);
+        width: 100%;
+        text-align: center;
+        > span {
+            display: block;
+            width: 100%;
+            height: 0.32rem;
+            font-size: 0.22rem;
+            color: #353535;
+            text-align: center;
+            line-height: 0.32rem;
+        }
+        > ul {
+            width: 100%;
+            @include box-sizing(border-box);
+            padding: 0.19rem 0.22rem 0.3rem;
+            > li {
+                width: 100%;
+                height: 0.48rem;
+                line-height: 48rem;
+                @include border(0 0 1px 0,#E6E6E6);
+                &:nth-of-type(1) {
+                    > span {
+                        display: block;
+                        float: left;
+                        width: 30%;
+                        height: 0.48rem;
+                        line-height: 0.48rem;
+                        text-align: center;
+                        color: #0A0A0A;
+                        font-size: 0.17rem;
+                    }
+                    > i {
+                        display: block;
+                        float: left;
+                        width: 70%;
+                        height: 0.48rem;
+                        line-height: 0.48rem;
+                        color: #0A0A0A;
+                        font-size: 0.17rem;
+                        @include box-sizing(border-box);
+                        padding-left: 0.07rem;
+                        text-align: left;
+                    }
+                }
+                &:nth-of-type(2) {
+                    > ul {
+                        width: 100%;
+                        height: 0.48rem;
+                        > li {
+                            height: 0.48rem;
+                            line-height: 0.48rem;
+                            float: left;
+                            font-size: 0.13rem;
+                            color: #0A0A0A;
+                            &:nth-of-type(1) {
+                                width: 30%;
+                                text-align: left;
+                                @include box-sizing(border-box);
+                                @include border(0 1px 0 0,#E6E6E6);
+                            }
+                            &:nth-of-type(2) {
+                                width: 55%;
+                                text-align: left;
+                                @include box-sizing(border-box);
+                                padding-left: 0.07rem;
+                                > input {
+                                    width: 100%;
+                                    height: 100%;
+                                    border: none;
+                                }
+                            }
+                            &:nth-of-type(3) {
+                                width: 15%;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(3) {
+                    > span {
+                        display: block;
+                        float: left;
+                        width: 30%;
+                        text-align: left;
+                        height: 0.48rem;
+                        line-height: 0.48rem;
+                        font-size: 0.19rem;
+                        color: #0A0A0A;
+                    }
+                    > input {
+                        display: block;
+                        float: left;
+                        width: 70%;
+                        text-align: left;
+                        height: 0.48rem;
+                        line-height: 0.48rem;
+                        @include box-sizing(border-box);
+                        padding-left: 0.07rem;
+                        border: none;
+                        font-size: 0.14rem;
+                        color: #C7C7CD;
+                    }
+                }
+            }
+        }
+        > i {
+            display: block;
+            width: 100%;
+            height: 0.4rem;
+            @include box-sizing(border-box);
+            padding: 0 0.09rem;
+            margin-bottom: 0.27rem;
+            > a {
+                display: block;
+                width: 100%;
+                height: 0.4rem;
+                background-color: #D32626;
+                color: #FFFFFF;
+                font-size: 0.15rem;
+                text-align: center;
+                line-height: 0.4rem;
+            }
+        }
+        > b {
+            font-size: 0.12rem;
+            color: #7782A1;
+        }
+    }
+    > .login-footer {
+        width: 100%;
+        height: 0.64rem;
+        text-align: center;
+        @include box-sizing(border-box);
+        padding: 0.18rem 0 0.21rem;
+        > i {
+            display: block;
+            width: 100%;
+            font-size: 0.11rem;
+            color: #A1A1A1;
+            text-align: center;
+        }
+        > span {
+            display: block;
+            width: 100%;
+            font-size: 0.11rem;
+            color: #6A7CA1;
+            text-align: center;
+        }
+    }
 }
