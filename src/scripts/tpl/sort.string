@@ -25,8 +25,8 @@
                 </ul>
                 <section spa-widget="scroll">
                     <dl>
-                        <dt><img ms-src="dl0[0]" /></dt>
-                        <dd ms-repeat-el="dl0_imgArr">
+                        <dt><img ms-src="dl[0]" /></dt>
+                        <dd ms-repeat-el="dl_imgArr">
                             <ul>
                                 <li ms-repeat-item="el"><img ms-src="item.img" /><span ms-text="item.text"></span></li>
                             </ul>

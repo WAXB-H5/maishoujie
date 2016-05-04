@@ -1,16 +1,16 @@
 module.exports = {
   rules: [
     {
-      // pattern: /\/Tibet\/api\/dataList.do\?page=0$/,
-      // respondwith: 'datalist0.json'
+      pattern: /\/Maishoujie\/api\/data.do\?page=0$/,
+      respondwith: 'goodsPageData.json'
     },
     {
-      // pattern: /\/Tibet\/api\/dataList.do\?page=1$/,
-      // respondwith: 'datalist1.json'
+      pattern: /\/Maishoujie\/api\/data.do\?page=1$/,
+      respondwith: 'sortPageData.json'
     },
     {
-      // pattern: /\/Tibet\/api\/dataList.do\?page=$/,
-      // respondwith: 'datalist.json'
+      pattern: /\/Maishoujie\/api\/data.do\?page=2$/,
+      respondwith: 'goodsPageDataRefresh.json'
     }
   ]
 };

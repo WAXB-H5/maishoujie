@@ -5,20 +5,20 @@ SPA.defineView('sort', {
     plugins: ['delegated', {
         name: "avalon",
         options: function(vm) {
-            vm.dl0 = [];
-            vm.dl0_imgArr = [];
+            vm.dl = [];
+            vm.dl_imgArr = [];
         }
     }],
     init: {
         mySwiper: null,
-        getData: function(vm) {
+        getData: function(vm,idx) {
             that = this;
             $.ajax({
-                url: "/maishoujie/mock/sortPageData.json",
+                url: "/Maishoujie/api/data.do?page=1",
                 type: "get",
                 success: function(res) {
-                    vm.dl0 = res.dl0;
-                    vm.dl0_imgArr = that.getNewDataArr(res.dl0[1].ddImg, 3);
+                    vm.dl = res['dl'+idx];
+                    vm.dl_imgArr = that.getNewDataArr(vm.dl[1].ddImg, 3);
                 }
             });
         },
@@ -37,6 +37,10 @@ SPA.defineView('sort', {
     bindActions: {
         'tapLi': function(e) {
             $(e.el).addClass('activeSideLi').siblings().removeClass('activeSideLi');
+            var tapLiIndex = $(e.el).index();
+            var _this = this;
+            var vm = _this.getVM();
+            _this.getData(vm,tapLiIndex);
         },
         'sortSpanSlide': function(e) {
             this.mySwiper.slideTo($(e.el).index());
@@ -46,7 +50,7 @@ SPA.defineView('sort', {
         'beforeShow': function() {
             var _this = this;
             var vm = _this.getVM();
-            _this.getData(vm);
+            _this.getData(vm,0);
             this.mySwiper = new Swiper('.sort-swiper', {
                 loop: false,
                 onSlideChangeStart: function() {

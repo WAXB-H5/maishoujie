@@ -40,8 +40,35 @@
     @include flex(1);
     width: 100%;
     overflow: hidden;
+    .up {
+        transform: rotate(360deg) !important;
+        -webkit-transform: rotate(360deg) !important;
+    }
+    .down {
+        transform: rotate(180deg) !important;
+        -webkit-transform: rotate(180deg) !important;
+    }
     > div {
         > div:nth-of-type(1) {
+            width: 100%;
+            height: 0.6rem;
+            line-height: 0.6rem;
+            text-align: center;
+            background-color: #ffffff;
+            > img {
+                width: 0.2rem;
+                height: 0.2rem;
+                display: inline-block;
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+            }
+            > span {
+                font-size: 0.12rem;
+            }
+        }
+        > div:nth-of-type(2) {
             background-color: #ffffff;
             width: 100%;
             > div {
@@ -75,10 +102,10 @@
                 }
             }
         }
-        > div:nth-of-type(2) {
+        > div:nth-of-type(3) {
             width: 100%;
             background-color: #efeff4;
-            padding-bottom: 0.49rem;
+            // padding-bottom: 0.49rem;
             > .goodsUl {
                 width: 100%;
                 @include box-sizing(border-box);
@@ -132,6 +159,23 @@
                         }
                     }
                 }
+            }
+        }
+        > div:nth-of-type(4) {
+            padding-bottom: 0.49rem;
+            width: 100%;
+            height: 0.6rem;
+            line-height: 0.6rem;
+            text-align: center;
+            background-color: #ffffff;
+            > img {
+                width: 0.2rem;
+                height: 0.2rem;
+                display: inline-block;
+                transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
             }
         }
     }

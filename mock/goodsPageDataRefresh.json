@@ -1,0 +1,57 @@
+{
+  "goods": [{
+      "img": "/maishoujie/images/goods/goods01.png",
+      "intro": "More西蒙罗盾男装2015新款夏装休闲服",
+      "nowPrice": "16.8",
+      "previousPrice": "￥29",
+      "img2": "/maishoujie/images/goods/goods02.png",
+      "intro2": "More蓝轩汽车挂件高档挂饰品车挂件",
+      "nowPrice2": "5.9",
+      "previousPrice2": "￥38"
+  }, {
+      "img": "/maishoujie/images/goods/goods03.png",
+      "intro": "Moreiverra苹果iPhone6s plus二接口耳机",
+      "nowPrice": "8.8",
+      "previousPrice": "￥25.8",
+      "img2": "/maishoujie/images/goods/goods04.png",
+      "intro2": "More滚筒洗衣机罩海尔防水防晒版",
+      "nowPrice2": "9.88",
+      "previousPrice2": "￥18.3"
+  }, {
+      "img": "/maishoujie/images/goods/goods05.png",
+      "intro": "More正品男士太阳镜男女潮人偏爱",
+      "nowPrice": "5.9",
+      "previousPrice": "￥158",
+      "img2": "/maishoujie/images/goods/goods06.png",
+      "intro2": "More新款韩版男女潮渔夫帽盆帽",
+      "nowPrice2": "9.9",
+      "previousPrice2": "￥50"
+  }, {
+      "img": "/maishoujie/images/goods/goods01.png",
+      "intro": "More西蒙罗盾男装2015新款夏装休闲服",
+      "nowPrice": "16.8",
+      "previousPrice": "￥29",
+      "img2": "/maishoujie/images/goods/goods02.png",
+      "intro2": "More蓝轩汽车挂件高档挂饰品车挂件",
+      "nowPrice2": "5.9",
+      "previousPrice2": "￥38"
+  }, {
+      "img": "/maishoujie/images/goods/goods03.png",
+      "intro": "Moreiverra苹果iPhone6s plus二接口耳机",
+      "nowPrice": "8.8",
+      "previousPrice": "￥25.8",
+      "img2": "/maishoujie/images/goods/goods04.png",
+      "intro2": "More滚筒洗衣机罩海尔防水防晒版",
+      "nowPrice2": "9.88",
+      "previousPrice2": "￥18.3"
+  }, {
+      "img": "/maishoujie/images/goods/goods05.png",
+      "intro": "More正品男士太阳镜男女潮人偏爱",
+      "nowPrice": "5.9",
+      "previousPrice": "￥158",
+      "img2": "/maishoujie/images/goods/goods06.png",
+      "intro2": "More新款韩版男女潮渔夫帽盆帽",
+      "nowPrice2": "9.9",
+      "previousPrice2": "￥50"
+  }]
+}
